@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpBladeFlightSimulator", "SharpBladeFlightSimulator\SharpBladeFlightSimulator\SharpBladeFlightSimulator.csproj", "{03B57B3B-DC65-4B07-BD4B-87ABFFDE5DF0}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "SharpBladeFlightSimulatorContent", "SharpBladeFlightSimulator\SharpBladeFlightSimulatorContent\SharpBladeFlightSimulatorContent.contentproj", "{CA56C180-AA63-4D0F-A0E6-1D699C637917}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03B57B3B-DC65-4B07-BD4B-87ABFFDE5DF0}.Debug|x86.ActiveCfg = Debug|x86
+		{03B57B3B-DC65-4B07-BD4B-87ABFFDE5DF0}.Debug|x86.Build.0 = Debug|x86
+		{03B57B3B-DC65-4B07-BD4B-87ABFFDE5DF0}.Release|x86.ActiveCfg = Release|x86
+		{03B57B3B-DC65-4B07-BD4B-87ABFFDE5DF0}.Release|x86.Build.0 = Release|x86
+		{CA56C180-AA63-4D0F-A0E6-1D699C637917}.Debug|x86.ActiveCfg = Debug|x86
+		{CA56C180-AA63-4D0F-A0E6-1D699C637917}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
