@@ -19,6 +19,7 @@ namespace SharpBladeFlightSimulator
 		GraphicsDeviceManager graphics;
 		SpriteBatch spriteBatch;
 
+		Texture2D ekb;
 		public Game1()
 		{
 			graphics = new GraphicsDeviceManager(this);
@@ -48,6 +49,7 @@ namespace SharpBladeFlightSimulator
 			spriteBatch = new SpriteBatch(GraphicsDevice);
 
 			// TODO: use this.Content to load your game content here
+			ekb = Content.Load<Texture2D>("eatkeyboard");
 		}
 
 		/// <summary>
@@ -81,10 +83,12 @@ namespace SharpBladeFlightSimulator
 		/// <param name="gameTime">Provides a snapshot of timing values.</param>
 		protected override void Draw(GameTime gameTime)
 		{
-			GraphicsDevice.Clear(Color.CornflowerBlue);
+			GraphicsDevice.Clear(Color.White);
 
 			// TODO: Add your drawing code here
-
+			spriteBatch.Begin();
+			spriteBatch.Draw(ekb, new Vector2(GraphicsDevice.Viewport.Width / 2 - ekb.Width / 2, GraphicsDevice.Viewport.Height / 2 - ekb.Height / 2), Color.White);
+			spriteBatch.End();
 			base.Draw(gameTime);
 		}
 	}
